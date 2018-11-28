@@ -1,4 +1,4 @@
-# chat-app
+# Frontend
 
 ## Project setup
 ```
@@ -10,20 +10,16 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Backend
 
-### Run your tests
+## Project setup
 ```
-npm run test
+cd server
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+npm install
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### run server
+```
+nodemon app.js
+```
